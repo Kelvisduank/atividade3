@@ -1,0 +1,13 @@
+:root { --fundo: #fffaf3; --texto: #2b2118; --destaque: #b4532a; --aviso: #fff1c2; }
+@media (prefers-color-scheme: dark) {
+  :root { --fundo: #1d1813; --texto: #f2e8dc; --destaque: #f0915f; --aviso: #4a3b10; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font-family: system-ui, sans-serif; background: var(--fundo); color: var(--texto); line-height: 1.5; }
+header, main { max-width: 720px; margin: 0 auto; }
+h1 { color: var(--destaque); }
+#filtros { display: flex; flex-wrap: wrap; gap: 8px; }
+#filtros button { padding: 6px 14px; border: 1px solid var(--destaque); border-radius: 999px; background: none; color: var(--texto); cursor: pointer; }
+#filtros button[aria-pressed="true"] { background: var(--destaque); color: var(--fundo); }
+a { color: var(--destaque); }
+.pendencia { background: var(--aviso); padding: 8px 12px; border-radius: 6px; }

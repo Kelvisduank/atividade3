@@ -1,0 +1,13 @@
+Criei `receitas/pao-de-queijo-da-vo.json` (categoria "salgado"), mas não consegui validar: as tentativas de rodar o validador foram bloqueadas por falta de permissão. Então o arquivo ainda não foi checado e o `indice.json` não foi atualizado. Por isso a receita ainda não aparece no site. Rode `npm run validar` para atualizar o índice.
+
+Você passou só os ingredientes e o modo de preparo resumido. Para não inventar nada, deixei vazias (`null`) as quantidades, o rendimento e o tempo total. Os passos ficaram como você falou: "Misture todos os ingredientes", "Faça bolinhas com a massa" e "Asse".
+
+O validador obriga cada ingrediente a ter uma unidade, mesmo sem quantidade. Coloquei unidades provisórias: xícara para polvilho, leite e óleo, gramas para o queijo e unidade para o ovo.
+
+Anotei em `pendencias` o que falta confirmar com a receita da vó:
+- quantidades de todos os ingredientes e se as unidades provisórias estão certas;
+- tipo de polvilho (doce, azedo ou mistura) e de queijo;
+- temperatura e tempo de forno;
+- rendimento e tempo total.
+
+Se você tiver essas informações, me passa que eu completo a receita.

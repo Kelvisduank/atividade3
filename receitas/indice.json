@@ -1,0 +1,17 @@
+[
+  {
+    "id": "bolo-de-cenoura",
+    "titulo": "Bolo de cenoura com cobertura de chocolate",
+    "categoria": "doce"
+  },
+  {
+    "id": "pao-de-queijo-da-vo",
+    "titulo": "Pão de queijo da vó",
+    "categoria": "salgado"
+  },
+  {
+    "id": "suco-de-limao",
+    "titulo": "Limonada suíça",
+    "categoria": "bebida"
+  }
+]

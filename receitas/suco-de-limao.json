@@ -1,0 +1,21 @@
+{
+  "id": "suco-de-limao",
+  "titulo": "Limonada suíça",
+  "categoria": "bebida",
+  "rendimento": 4,
+  "tempoMinutos": 10,
+  "ingredientes": [
+    { "nome": "limão taiti", "quantidade": 2, "unidade": "unidade" },
+    { "nome": "água gelada", "quantidade": 1, "unidade": "l" },
+    { "nome": "leite condensado", "quantidade": 3, "unidade": "colher-sopa" },
+    { "nome": "açúcar", "quantidade": null, "unidade": "a-gosto" },
+    { "nome": "gelo", "quantidade": null, "unidade": "a-gosto" }
+  ],
+  "passos": [
+    "Lave bem os limões e corte em quatro, tirando o miolo branco.",
+    "Bata no liquidificador com a água por no máximo 10 segundos (mais que isso amarga).",
+    "Coe, volte ao liquidificador com o leite condensado e o açúcar e bata rápido.",
+    "Sirva com gelo."
+  ],
+  "pendencias": []
+}

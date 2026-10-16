@@ -1,0 +1,11 @@
+Adicionei a receita em `receitas/pao-de-queijo-da-vo.json`. Ela passou no validador e o `indice.json` foi regenerado, então agora são 3 receitas no site.
+
+Você não passou quantidades, então não inventei nenhuma. Os ingredientes ficaram com quantidade e unidade vazias (`null`), e os passos são só os que você descreveu: misturar, fazer bolinhas e assar. Anotei o que falta na lista de pendências da receita:
+
+- quantidade de cada ingrediente
+- tipo de polvilho (doce ou azedo)
+- tipo de queijo
+- temperatura e tempo de forno
+- rendimento
+
+Se você conseguir esses detalhes com a vó, é só me passar que eu completo a receita.

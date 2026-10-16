@@ -1,0 +1,12 @@
+{
+  "name": "receitas-da-casa",
+  "version": "1.0.0",
+  "description": "Caderno de receitas da família em site estático. Cada receita é um JSON validado por schema.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "validar": "node scripts/validar.mjs",
+    "test": "node --test \"test/**/*.test.mjs\"",
+    "dev": "npx --yes serve@14.2.4 ."
+  }
+}

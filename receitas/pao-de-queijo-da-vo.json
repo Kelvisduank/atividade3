@@ -1,0 +1,26 @@
+{
+  "id": "pao-de-queijo-da-vo",
+  "titulo": "Pão de queijo da vó",
+  "categoria": "salgado",
+  "rendimento": null,
+  "tempoMinutos": null,
+  "ingredientes": [
+    { "nome": "polvilho", "quantidade": null, "unidade": null },
+    { "nome": "queijo", "quantidade": null, "unidade": null },
+    { "nome": "ovo", "quantidade": null, "unidade": null },
+    { "nome": "leite", "quantidade": null, "unidade": null },
+    { "nome": "óleo", "quantidade": null, "unidade": null }
+  ],
+  "passos": [
+    "Misture todos os ingredientes.",
+    "Faça bolinhas com a massa.",
+    "Asse."
+  ],
+  "pendencias": [
+    "quantidade de cada ingrediente",
+    "tipo de polvilho (doce ou azedo)",
+    "tipo de queijo",
+    "temperatura e tempo de forno",
+    "rendimento"
+  ]
+}

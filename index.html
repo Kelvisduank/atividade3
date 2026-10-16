@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Receitas da Casa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Receitas da Casa</h1>
+    <nav id="filtros" aria-label="Filtrar por categoria">
+      <button data-cat="" aria-pressed="true">Todas</button>
+      <button data-cat="doce" aria-pressed="false">Doces</button>
+      <button data-cat="salgado" aria-pressed="false">Salgados</button>
+      <button data-cat="bebida" aria-pressed="false">Bebidas</button>
+    </nav>
+  </header>
+  <main>
+    <ul id="lista"></ul>
+    <article id="receita" hidden></article>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
