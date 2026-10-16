@@ -1,0 +1,305 @@
+## Context Usage
+
+**Model:** claude-opus-5-5  
+**Tokens:** 21.9k / 1m (2%)
+
+### Estimated usage by category
+
+| Category | Tokens | Percentage |
+|----------|--------|------------|
+| System prompt | 2.3k | 0.2% |
+| System tools | 6k | 0.6% |
+| MCP tools | 612 | 0.1% |
+| MCP server instructions | 1.8k | 0.2% |
+| MCP tools (deferred) | 150.5k | 15.0% |
+| System tools (deferred) | 15.8k | 1.6% |
+| Custom agents | 75 | 0.0% |
+| Memory files | 1.1k | 0.1% |
+| Skills | 10k | 1.0% |
+| Messages | 10 | 0.0% |
+| Free space | 945.1k | 94.5% |
+| Autocompact buffer | 33k | 3.3% |
+
+### MCP Tools
+
+| Tool | Server | Tokens |
+|------|--------|--------|
+| mcp__claude_ai_Canva__comment-on-design | claude_ai_Canva | 427 |
+| mcp__claude_ai_Canva__copy-design | claude_ai_Canva | 459 |
+| mcp__claude_ai_Canva__create-brand-template-draft | claude_ai_Canva | 540 |
+| mcp__claude_ai_Canva__create-design | claude_ai_Canva | 1.4k |
+| mcp__claude_ai_Canva__create-design-from-brand-template | claude_ai_Canva | 476 |
+| mcp__claude_ai_Canva__create-design-from-candidate | claude_ai_Canva | 772 |
+| mcp__claude_ai_Canva__create-folder | claude_ai_Canva | 356 |
+| mcp__claude_ai_Canva__create-upload-url | claude_ai_Canva | 525 |
+| mcp__claude_ai_Canva__edit-design | claude_ai_Canva | 8.4k |
+| mcp__claude_ai_Canva__export-design | claude_ai_Canva | 1.1k |
+| mcp__claude_ai_Canva__generate-design | claude_ai_Canva | 3.8k |
+| mcp__claude_ai_Canva__generate-design-structured | claude_ai_Canva | 2.4k |
+| mcp__claude_ai_Canva__generate-image | claude_ai_Canva | 2.5k |
+| mcp__claude_ai_Canva__get-assets | claude_ai_Canva | 443 |
+| mcp__claude_ai_Canva__get-brand-template-dataset | claude_ai_Canva | 411 |
+| mcp__claude_ai_Canva__get-create-design-async-job | claude_ai_Canva | 729 |
+| mcp__claude_ai_Canva__get-design-dataset | claude_ai_Canva | 396 |
+| mcp__claude_ai_Canva__get-export-formats | claude_ai_Canva | 387 |
+| mcp__claude_ai_Canva__get-generate-image-job | claude_ai_Canva | 669 |
+| mcp__claude_ai_Canva__get-motion-import-job-status | claude_ai_Canva | 364 |
+| mcp__claude_ai_Canva__get-separate-image-layers-job | claude_ai_Canva | 485 |
+| mcp__claude_ai_Canva__help | claude_ai_Canva | 615 |
+| mcp__claude_ai_Canva__import-claude-motion-from-url | claude_ai_Canva | 617 |
+| mcp__claude_ai_Canva__import-design-from-url | claude_ai_Canva | 1k |
+| mcp__claude_ai_Canva__list-brand-kits | claude_ai_Canva | 528 |
+| mcp__claude_ai_Canva__list-comments | claude_ai_Canva | 459 |
+| mcp__claude_ai_Canva__list-folder-items | claude_ai_Canva | 577 |
+| mcp__claude_ai_Canva__list-replies | claude_ai_Canva | 516 |
+| mcp__claude_ai_Canva__merge-designs | claude_ai_Canva | 1.4k |
+| mcp__claude_ai_Canva__move-item-to-folder | claude_ai_Canva | 362 |
+| mcp__claude_ai_Canva__publish-brand-template | claude_ai_Canva | 359 |
+| mcp__claude_ai_Canva__read-design | claude_ai_Canva | 1k |
+| mcp__claude_ai_Canva__remove-background | claude_ai_Canva | 706 |
+| mcp__claude_ai_Canva__reply-to-comment | claude_ai_Canva | 468 |
+| mcp__claude_ai_Canva__request-outline-review | claude_ai_Canva | 1.9k |
+| mcp__claude_ai_Canva__resize-design | claude_ai_Canva | 855 |
+| mcp__claude_ai_Canva__resolve-shortlink | claude_ai_Canva | 371 |
+| mcp__claude_ai_Canva__search-brand-templates | claude_ai_Canva | 821 |
+| mcp__claude_ai_Canva__search-designs | claude_ai_Canva | 941 |
+| mcp__claude_ai_Canva__search-folders | claude_ai_Canva | 591 |
+| mcp__claude_ai_Canva__separate-image-layers | claude_ai_Canva | 847 |
+| mcp__claude_ai_Canva__upload-asset-from-url | claude_ai_Canva | 470 |
+| mcp__claude_ai_Claude_Docs__batch | claude_ai_Claude_Docs | 150 |
+| mcp__claude_ai_Claude_Docs__create | claude_ai_Claude_Docs | 233 |
+| mcp__claude_ai_Claude_Docs__delete | claude_ai_Claude_Docs | 313 |
+| mcp__claude_ai_Claude_Docs__export | claude_ai_Claude_Docs | 296 |
+| mcp__claude_ai_Claude_Docs__guide | claude_ai_Claude_Docs | 190 |
+| mcp__claude_ai_Claude_Docs__query | claude_ai_Claude_Docs | 166 |
+| mcp__claude_ai_Claude_Docs__read | claude_ai_Claude_Docs | 296 |
+| mcp__claude_ai_Claude_Docs__update | claude_ai_Claude_Docs | 272 |
+| mcp__claude_ai_Google_Drive__copy_file | claude_ai_Google_Drive | 414 |
+| mcp__claude_ai_Google_Drive__create_file | claude_ai_Google_Drive | 913 |
+| mcp__claude_ai_Google_Drive__download_file_content | claude_ai_Google_Drive | 470 |
+| mcp__claude_ai_Google_Drive__get_file_metadata | claude_ai_Google_Drive | 476 |
+| mcp__claude_ai_Google_Drive__get_file_permissions | claude_ai_Google_Drive | 133 |
+| mcp__claude_ai_Google_Drive__list_recent_files | claude_ai_Google_Drive | 654 |
+| mcp__claude_ai_Google_Drive__read_file_content | claude_ai_Google_Drive | 873 |
+| mcp__claude_ai_Google_Drive__search_files | claude_ai_Google_Drive | 1.1k |
+| mcp__claude_ai_Google_Drive__share_file | claude_ai_Google_Drive | 396 |
+| mcp__claude_ai_Google_Drive__trash_file | claude_ai_Google_Drive | 155 |
+| mcp__claude_ai_Google_Drive__update_file | claude_ai_Google_Drive | 404 |
+| mcp__claude_ai_Notion__notion-calendar-cancel-events | claude_ai_Notion | 430 |
+| mcp__claude_ai_Notion__notion-calendar-create-events | claude_ai_Notion | 2k |
+| mcp__claude_ai_Notion__notion-calendar-list-calendar-resources | claude_ai_Notion | 832 |
+| mcp__claude_ai_Notion__notion-calendar-list-calendars | claude_ai_Notion | 253 |
+| mcp__claude_ai_Notion__notion-calendar-list-contacts | claude_ai_Notion | 212 |
+| mcp__claude_ai_Notion__notion-calendar-list-coworkers-events | claude_ai_Notion | 327 |
+| mcp__claude_ai_Notion__notion-calendar-list-events | claude_ai_Notion | 316 |
+| mcp__claude_ai_Notion__notion-calendar-update-events | claude_ai_Notion | 2.8k |
+| mcp__claude_ai_Notion__notion-check-mcp-next-steps | claude_ai_Notion | 462 |
+| mcp__claude_ai_Notion__notion-convert-page-to-skill | claude_ai_Notion | 239 |
+| mcp__claude_ai_Notion__notion-create-attachment | claude_ai_Notion | 1.4k |
+| mcp__claude_ai_Notion__notion-create-comment | claude_ai_Notion | 4k |
+| mcp__claude_ai_Notion__notion-create-database | claude_ai_Notion | 1.6k |
+| mcp__claude_ai_Notion__notion-create-file-upload | claude_ai_Notion | 612 |
+| mcp__claude_ai_Notion__notion-create-folder | claude_ai_Notion | 450 |
+| mcp__claude_ai_Notion__notion-create-pages | claude_ai_Notion | 3.5k |
+| mcp__claude_ai_Notion__notion-create-view | claude_ai_Notion | 1.3k |
+| mcp__claude_ai_Notion__notion-delete-comment | claude_ai_Notion | 285 |
+| mcp__claude_ai_Notion__notion-delete-databases | claude_ai_Notion | 545 |
+| mcp__claude_ai_Notion__notion-delete-pages | claude_ai_Notion | 493 |
+| mcp__claude_ai_Notion__notion-download-attachment | claude_ai_Notion | 462 |
+| mcp__claude_ai_Notion__notion-download-skill | claude_ai_Notion | 210 |
+| mcp__claude_ai_Notion__notion-duplicate-page | claude_ai_Notion | 315 |
+| mcp__claude_ai_Notion__notion-fetch | claude_ai_Notion | 1.4k |
+| mcp__claude_ai_Notion__notion-get-async-task | claude_ai_Notion | 384 |
+| mcp__claude_ai_Notion__notion-get-comments | claude_ai_Notion | 747 |
+| mcp__claude_ai_Notion__notion-get-enabled-skills | claude_ai_Notion | 193 |
+| mcp__claude_ai_Notion__notion-get-file-download-urls | claude_ai_Notion | 437 |
+| mcp__claude_ai_Notion__notion-get-groups | claude_ai_Notion | 433 |
+| mcp__claude_ai_Notion__notion-get-self | claude_ai_Notion | 183 |
+| mcp__claude_ai_Notion__notion-get-session-status | claude_ai_Notion | 244 |
+| mcp__claude_ai_Notion__notion-get-teams | claude_ai_Notion | 293 |
+| mcp__claude_ai_Notion__notion-get-tool-access | claude_ai_Notion | 500 |
+| mcp__claude_ai_Notion__notion-get-users | claude_ai_Notion | 543 |
+| mcp__claude_ai_Notion__notion-list-favorite-pages | claude_ai_Notion | 224 |
+| mcp__claude_ai_Notion__notion-list-page-backlinks | claude_ai_Notion | 485 |
+| mcp__claude_ai_Notion__notion-list-private-pages | claude_ai_Notion | 247 |
+| mcp__claude_ai_Notion__notion-list-recent-pages | claude_ai_Notion | 304 |
+| mcp__claude_ai_Notion__notion-list-session-events | claude_ai_Notion | 410 |
+| mcp__claude_ai_Notion__notion-list-shared-pages | claude_ai_Notion | 244 |
+| mcp__claude_ai_Notion__notion-memory-search | claude_ai_Notion | 336 |
+| mcp__claude_ai_Notion__notion-move-pages | claude_ai_Notion | 809 |
+| mcp__claude_ai_Notion__notion-query-data-sources | claude_ai_Notion | 30.7k |
+| mcp__claude_ai_Notion__notion-query-meeting-notes | claude_ai_Notion | 8.4k |
+| mcp__claude_ai_Notion__notion-query-multiple-data-sources | claude_ai_Notion | 1.1k |
+| mcp__claude_ai_Notion__notion-query-sessions | claude_ai_Notion | 6.7k |
+| mcp__claude_ai_Notion__notion-read-session-event | claude_ai_Notion | 296 |
+| mcp__claude_ai_Notion__notion-restore-pages | claude_ai_Notion | 295 |
+| mcp__claude_ai_Notion__notion-search | claude_ai_Notion | 2.5k |
+| mcp__claude_ai_Notion__notion-search-agents | claude_ai_Notion | 466 |
+| mcp__claude_ai_Notion__notion-search-sessions | claude_ai_Notion | 261 |
+| mcp__claude_ai_Notion__notion-send-message-to-session | claude_ai_Notion | 281 |
+| mcp__claude_ai_Notion__notion-set-comment-reaction | claude_ai_Notion | 305 |
+| mcp__claude_ai_Notion__notion-set-discussion-resolved | claude_ai_Notion | 351 |
+| mcp__claude_ai_Notion__notion-show-advanced-analysis-next-steps | claude_ai_Notion | 273 |
+| mcp__claude_ai_Notion__notion-spawn-session | claude_ai_Notion | 244 |
+| mcp__claude_ai_Notion__notion-stop-session | claude_ai_Notion | 233 |
+| mcp__claude_ai_Notion__notion-update-comment | claude_ai_Notion | 399 |
+| mcp__claude_ai_Notion__notion-update-data-source | claude_ai_Notion | 4.9k |
+| mcp__claude_ai_Notion__notion-update-enabled-skills | claude_ai_Notion | 377 |
+| mcp__claude_ai_Notion__notion-update-folder | claude_ai_Notion | 580 |
+| mcp__claude_ai_Notion__notion-update-page | claude_ai_Notion | 3.8k |
+| mcp__claude_ai_Notion__notion-update-view | claude_ai_Notion | 764 |
+| mcp__claude_ai_Notion__notion-upload-skill | claude_ai_Notion | 936 |
+| mcp__claude_ai_Notion__notion-wait-session | claude_ai_Notion | 284 |
+| mcp__context7__query-docs | context7 | 790 |
+| mcp__context7__resolve-library-id | context7 | 1.1k |
+| mcp__plugin_qt-development-skills_qt-docs__qt_documentation_read | plugin_qt-development-skills_qt-docs | 253 |
+| mcp__plugin_qt-development-skills_qt-docs__qt_documentation_search | plugin_qt-development-skills_qt-docs | 795 |
+| mcp__plugin_twilio-developer-kit_twilio-docs__twilio__retrieve | plugin_twilio-developer-kit_twilio-docs | 603 |
+| mcp__plugin_twilio-developer-kit_twilio-docs__twilio__search | plugin_twilio-developer-kit_twilio-docs | 1.2k |
+
+### Custom Agents
+
+| Agent Type | Source | Tokens |
+|------------|--------|--------|
+| vidiq:vidiq-mcp-specialist | Plugin | 75 |
+
+### Memory Files
+
+| Type | Path | Tokens |
+|------|------|--------|
+| User | C:\Users\Kelvi\.claude\rules\context7.md | 531 |
+| Project | C:\Users\Kelvi\AppData\Local\Temp\claude\cen-2-negativo\CLAUDE.md | 16 |
+| Project | C:\Users\Kelvi\AppData\Local\Temp\claude\cen-2-negativo\AGENTS.md | 507 |
+
+### Skills
+
+| Skill | Source | Tokens |
+|-------|--------|--------|
+| arena | User | ~180 |
+| context7-mcp | User | ~90 |
+| nova-receita | Project | ~140 |
+| design:accessibility-review | Plugin (design) | ~100 |
+| design:design-critique | Plugin (design) | ~100 |
+| design:design-handoff | Plugin (design) | ~90 |
+| design:design-system | Plugin (design) | ~100 |
+| design:research-synthesis | Plugin (design) | ~100 |
+| design:user-research | Plugin (design) | ~90 |
+| design:ux-copy | Plugin (design) | ~100 |
+| data:analyze | Plugin (data) | ~80 |
+| data:build-dashboard | Plugin (data) | ~110 |
+| data:create-viz | Plugin (data) | ~100 |
+| data:data-context-extractor | Plugin (data) | ~280 |
+| data:data-visualization | Plugin (data) | ~90 |
+| data:explore-data | Plugin (data) | ~100 |
+| data:sql-queries | Plugin (data) | ~100 |
+| data:statistical-analysis | Plugin (data) | ~100 |
+| data:validate-data | Plugin (data) | ~110 |
+| data:write-query | Plugin (data) | ~110 |
+| qt-development-skills:qt-canvas2d | Plugin (qt-development-skills) | ~280 |
+| qt-development-skills:qt-cmake-project | Plugin (qt-development-skills) | ~60 |
+| qt-development-skills:qt-cpp-docs | Plugin (qt-development-skills) | ~230 |
+| qt-development-skills:qt-cpp-review | Plugin (qt-development-skills) | ~150 |
+| qt-development-skills:qt-figma-component-generation | Plugin (qt-development-skills) | ~270 |
+| qt-development-skills:qt-figma-token-extraction | Plugin (qt-development-skills) | ~220 |
+| qt-development-skills:qt-qml | Plugin (qt-development-skills) | ~130 |
+| qt-development-skills:qt-qml-docs | Plugin (qt-development-skills) | ~240 |
+| qt-development-skills:qt-qml-profiler | Plugin (qt-development-skills) | ~160 |
+| qt-development-skills:qt-qml-review | Plugin (qt-development-skills) | ~160 |
+| qt-development-skills:qt-qml-test | Plugin (qt-development-skills) | ~60 |
+| qt-development-skills:qt-qml-test-run | Plugin (qt-development-skills) | ~60 |
+| qt-development-skills:qt-ui-design | Plugin (qt-development-skills) | ~60 |
+| twilio-developer-kit:twilio-account-setup | Plugin (twilio-developer-kit) | ~230 |
+| twilio-developer-kit:twilio-agent-augmentation-architect | Plugin (twilio-developer-kit) | ~150 |
+| twilio-developer-kit:twilio-ai-agent-architect | Plugin (twilio-developer-kit) | ~140 |
+| twilio-developer-kit:twilio-call-recordings | Plugin (twilio-developer-kit) | ~130 |
+| twilio-developer-kit:twilio-cli-reference | Plugin (twilio-developer-kit) | ~190 |
+| twilio-developer-kit:twilio-compliance-onboarding | Plugin (twilio-developer-kit) | ~130 |
+| twilio-developer-kit:twilio-compliance-traffic | Plugin (twilio-developer-kit) | ~150 |
+| twilio-developer-kit:twilio-conference-calls | Plugin (twilio-developer-kit) | ~110 |
+| twilio-developer-kit:twilio-content-template-builder | Plugin (twilio-developer-kit) | ~130 |
+| twilio-developer-kit:twilio-conversation-intelligence | Plugin (twilio-developer-kit) | ~120 |
+| twilio-developer-kit:twilio-conversation-memory | Plugin (twilio-developer-kit) | ~120 |
+| twilio-developer-kit:twilio-conversation-orchestrator | Plugin (twilio-developer-kit) | ~160 |
+| twilio-developer-kit:twilio-conversations-classic-api | Plugin (twilio-developer-kit) | ~120 |
+| twilio-developer-kit:twilio-customer-support-architect | Plugin (twilio-developer-kit) | ~130 |
+| twilio-developer-kit:twilio-debugging-observability | Plugin (twilio-developer-kit) | ~150 |
+| twilio-developer-kit:twilio-email-deliverability-advisor | Plugin (twilio-developer-kit) | ~120 |
+| twilio-developer-kit:twilio-email-send | Plugin (twilio-developer-kit) | ~150 |
+| twilio-developer-kit:twilio-enterprise-knowledge | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-iam-auth-setup | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-identity-verification-advisor | Plugin (twilio-developer-kit) | ~20 |
+| twilio-developer-kit:twilio-lookup-phone-intelligence | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-marketing-promotions-advisor | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-messaging-channel-advisor | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-messaging-overview | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-messaging-services | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-messaging-webhooks | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-migrate-messaging-to-verify | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-notifications-alerts-advisor | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-numbers-senders | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-organizations-setup | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-rcs-messaging | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-regulatory-compliance-bundles | Plugin (twilio-developer-kit) | ~20 |
+| twilio-developer-kit:twilio-reliability-patterns | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-security-api-auth | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-security-compliance-hipaa | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-security-hardening | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-send-message | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-isv-sms-best-practices | Plugin (twilio-developer-kit) | ~30 |
+| twilio-developer-kit:twilio-sms-send-message | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-studio-flows | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-taskrouter-routing | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-verify-send-otp | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-voice-conversation-relay | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-voice-outbound-calls | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-voice-twiml | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-webhook-architecture | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-whatsapp-manage-senders | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-whatsapp-send-message | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-sendgrid-account-setup | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-sendgrid-deliverability-advisor | Plugin (twilio-developer-kit) | ~20 |
+| twilio-developer-kit:twilio-sendgrid-email-send | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-sendgrid-email-settings | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-sendgrid-engagement-quality | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-sendgrid-inbound-parse | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-sendgrid-suppressions | Plugin (twilio-developer-kit) | < 20 |
+| twilio-developer-kit:twilio-sendgrid-webhooks | Plugin (twilio-developer-kit) | < 20 |
+| vidiq:vidiq-channel-audit | Plugin (vidiq) | < 20 |
+| vidiq:vidiq-comment-insights | Plugin (vidiq) | < 20 |
+| vidiq:vidiq-competitor-watchlist | Plugin (vidiq) | < 20 |
+| vidiq:vidiq-get-started | Plugin (vidiq) | < 20 |
+| vidiq:vidiq-new-upload-review | Plugin (vidiq) | < 20 |
+| vidiq:vidiq-next-video-planner | Plugin (vidiq) | < 20 |
+| vidiq:vidiq-packaging-comparison | Plugin (vidiq) | < 20 |
+| vidiq:vidiq-packaging-studio | Plugin (vidiq) | < 20 |
+| vidiq:vidiq-retention-analysis | Plugin (vidiq) | < 20 |
+| vidiq:vidiq-shorts-inspiration | Plugin (vidiq) | < 20 |
+| vidiq:vidiq-trend-radar | Plugin (vidiq) | < 20 |
+| vidiq:vidiq-video-ideas | Plugin (vidiq) | < 20 |
+| dataviz | Built-in | ~480 |
+| update-config | Built-in | ~240 |
+| keybindings-help | Built-in | ~80 |
+| code-review | Built-in | ~210 |
+| simplify | Built-in | ~60 |
+| fewer-permission-prompts | Built-in | ~60 |
+| loop | Built-in | ~120 |
+| schedule | Built-in | ~130 |
+| claude-api | Built-in | ~360 |
+| workflow-authoring | Built-in | ~80 |
+| run | Built-in | ~120 |
+| plugin-authoring | Built-in | ~90 |
+| init | Built-in | ~20 |
+| security-review | Built-in | < 20 |
+| animacao-pixel-art | claude.ai sync | < 20 |
+| docs | claude.ai sync | < 20 |
+| docx | claude.ai sync | < 20 |
+| google-workspace | claude.ai sync | < 20 |
+| high-agency-pda | claude.ai sync | ~250 |
+| import-memory | claude.ai sync | < 20 |
+| morning | claude.ai sync | < 20 |
+| pdf | claude.ai sync | < 20 |
+| pptx | claude.ai sync | < 20 |
+| skill-creator | claude.ai sync | < 20 |
+| videos-virais | claude.ai sync | < 20 |
+| xlsx | claude.ai sync | < 20 |
+

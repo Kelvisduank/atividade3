@@ -1,0 +1,24 @@
+{
+  "id": "brigadeiro",
+  "titulo": "Brigadeiro",
+  "categoria": "doce",
+  "rendimento": null,
+  "tempoMinutos": null,
+  "ingredientes": [
+    { "nome": "leite condensado", "quantidade": 395, "unidade": "g" },
+    { "nome": "manteiga", "quantidade": 1, "unidade": "colher-sopa" },
+    { "nome": "chocolate em pó", "quantidade": 4, "unidade": "colher-sopa" }
+  ],
+  "passos": [
+    "Junte o leite condensado, a manteiga e o chocolate em pó numa panela.",
+    "Mexa no fogo até desgrudar da panela."
+  ],
+  "pendencias": [
+    "confirmar se a colher de manteiga é colher de sopa",
+    "confirmar se as colheres de chocolate em pó são colheres de sopa",
+    "juntar tudo na panela antes de ir ao fogo foi suposto: confirmar",
+    "intensidade do fogo não informada",
+    "tempo de preparo não informado",
+    "rendimento não informado"
+  ]
+}

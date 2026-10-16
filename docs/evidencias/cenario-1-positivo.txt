@@ -1,0 +1,14 @@
+PROMPT: Minha tia mandou no zap a receita do bolo de fubá dela: 3 ovos, 2 xícaras de fubá, 1 xícara de açúcar, 1 copo de leite, meia xícara de óleo e 1 colher de fermento. Bate tudo no liquidificador e assa. Põe no caderno pra mim?
+SKILL CHAMADA: "name":"Skill","input":{"skill":"nova-receita"}
+ARQUIVOS ALTERADOS:
+ M receitas/indice.json
+?? receitas/bolo-de-fuba-da-tia.json
+RESPOSTA:
+Coloquei a receita no caderno em `receitas/bolo-de-fuba-da-tia.json`, e o validador aceitou (o caderno agora tem 4 receitas).
+
+Precisa confirmar com a sua tia:
+- Qual o tamanho do "copo" de leite (anotei como 1 xícara).
+- Se a colher de fermento é de sopa e se é fermento em pó químico.
+- Qual forma usar e se precisa untar.
+- Temperatura e tempo de forno.
+- Quantas porções rende.

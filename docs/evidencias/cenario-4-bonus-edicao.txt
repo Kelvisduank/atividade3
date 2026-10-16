@@ -1,0 +1,11 @@
+PROMPT: Cadastra o tempo certo do bolo de cenoura: são 50 minutos, não 60.
+SKILL CHAMADA: nenhuma
+ARQUIVOS ALTERADOS:
+ M receitas/bolo-de-cenoura.json
+ M receitas/indice.json
+RESPOSTA:
+Mudei o tempo do bolo de cenoura de 60 para 50 minutos, no campo `tempoMinutos` de `receitas/bolo-de-cenoura.json:6`. Depois rodei `npm run validar`: as 3 receitas passaram e o `indice.json` foi gerado de novo com o valor novo.
+
+Os passos da receita continuam com "Asse a 180 °C por cerca de 40 minutos". Dá para somar com o preparo e chegar nos 50, mas, se os 50 minutos forem só de forno, me avisa que eu corrijo esse passo também.
+
+Não fiz commit. As alterações estão só nos arquivos.

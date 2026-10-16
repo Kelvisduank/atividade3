@@ -1,0 +1,6 @@
+Salvei o brigadeiro em `receitas/brigadeiro.json` como doce, e o validador passou: são 4 receitas no índice agora. A lata de leite condensado entrou como 395 g, o tamanho padrão.
+
+O que falta confirmar com quem passou a receita:
+- se a colher de manteiga e as de chocolate em pó são de sopa (deixei assim);
+- se tudo vai junto na panela antes de ir ao fogo (deixei assim, mas a receita não dizia);
+- o fogo (baixo, médio?), o tempo de preparo e quanto rende, que ficaram em branco.

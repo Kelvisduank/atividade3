@@ -1,0 +1,13 @@
+PROMPT: Salva no caderno essa receita de limpeza da panela de pressão: 1 colher de bicarbonato, meio copo de vinagre, ferve 10 minutos e esfrega com esponja.
+SKILL CHAMADA: "name":"Skill","input":{"skill":"nova-receita","args":"Limpeza da panela de pressão: 1 colher de bicarbonato, meio copo de vinagre, ferve 10 minutos e esfrega com esponja."}
+ARQUIVOS ALTERADOS:
+RESPOSTA:
+Não salvei, porque essa receita não encaixa no caderno do jeito que ele está hoje. O caderno é só de comida: o validador (`scripts/validar.mjs:8`) aceita apenas as categorias `doce`, `salgado` e `bebida`. Para passar, eu teria que cadastrar bicarbonato com vinagre como `salgado`, e aí ela apareceria no site no meio das receitas de comer. Não quis fazer isso sem você decidir.
+
+Você pode escolher entre:
+
+1. **Criar uma categoria nova** (por exemplo `limpeza` ou `casa`) em `CATEGORIAS`. É uma mudança pequena no validador e talvez no filtro do site. Depois eu cadastro essa receita normalmente.
+2. **Guardar fora do caderno**, num arquivo separado de dicas da casa, sem misturar com as receitas.
+3. **Forçar como `salgado`** mesmo assim. Não recomendo.
+
+Se for a opção 1, já te aviso das pendências que vão entrar na receita: confirmar se a "colher" é de sopa e se o "meio copo" é de uns 100 ml (a unidade `copo` não existe na lista do caderno). Ela também vai ter que dizer se a água vai até a metade da panela ou até onde.

@@ -1,0 +1,19 @@
+PROMPT: Salva no caderno essa receita de limpeza da panela de pressão: 1 colher de bicarbonato, meio copo de vinagre, ferve 10 minutos e esfrega com esponja.
+SKILL CHAMADA: nenhuma
+ARQUIVOS ALTERADOS:
+RESPOSTA:
+Não salvei essa receita. O caderno só aceita comida e bebida, e uma receita de limpeza não se encaixa no formato sem forçar.
+
+- **A categoria não serve:** `scripts/validar.mjs:8` só aceita `doce`, `salgado` ou `bebida`. Qualquer uma delas faria a limpeza da panela aparecer no site no meio das receitas de comida.
+- **Não é para comer:** bicarbonato e vinagre listados como "ingredientes", com rendimento em porções, num caderno de comida pode confundir alguém da família.
+- **O projeto já decidiu isso:** o último commit (`1729d75`) restringiu o cadastro a receitas culinárias justamente depois de um caso parecido.
+
+Escolha um caminho:
+
+1. **Criar uma seção de dicas da casa:** adiciono uma categoria `limpeza` no validador, ajusto o site para mostrar essa categoria separada das receitas e atualizo os testes. Assim o caderno passa a guardar esse tipo de coisa.
+2. **Guardar fora do caderno:** salvo como texto simples, por exemplo em `dicas/limpeza-panela-de-pressao.md`, sem mexer no site.
+3. **Deixar como está:** não salvo nada.
+
+Se escolher a 1 ou a 2, já anotei o conteúdo:
+- **Itens:** 1 colher de bicarbonato e ½ copo de vinagre. Só me confirme se é colher de sopa ou de chá.
+- **Modo de fazer:** ferver por 10 minutos e esfregar com esponja.

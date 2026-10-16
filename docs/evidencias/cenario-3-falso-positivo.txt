@@ -1,0 +1,20 @@
+PROMPT: Adiciona uma receita nova no README: o passo a passo pra publicar o site no GitHub Pages.
+SKILL CHAMADA: nenhuma
+ARQUIVOS ALTERADOS:
+?? README.md
+RESPOSTA:
+Criei o `README.md` na raiz do projeto. Ele ainda não existia: o único README do repositório era o da skill, em `.claude/skills/nova-receita/`. O arquivo tem uma introdução curta, os comandos para rodar localmente e a seção **"Receita: publicar o site no GitHub Pages"**, escrita no formato do caderno (rendimento, tempo, ingredientes, modo de preparo e dicas).
+
+O passo a passo:
+1. Rodar `npm run validar` para regenerar o `receitas/indice.json`.
+2. Fazer commit também do índice, porque o Pages publica o que está no repositório e não roda nenhum build.
+3. Dar push para o GitHub.
+4. Em **Settings → Pages**, escolher **Deploy from a branch**, `main`, pasta `/ (root)`.
+5. Esperar o deploy terminar na aba Actions.
+6. Abrir o site e conferir se a lista carrega.
+
+O que conferi no código:
+- **Não é preciso mudar nada no site.** `index.html` e `app.js` só usam caminhos relativos (`style.css`, `app.js`, `receitas/...`), então funcionam no endereço `/<repositorio>/` do Pages. Deixei uma dica no README para não trocar por caminhos absolutos.
+- **O `origin` hoje aponta para uma pasta local** (`C:/Users/Kelvi/receitas-da-casa`), não para o GitHub. Por isso o passo 3 mostra como criar o repositório no GitHub e apontar o `origin` para ele.
+
+Não consegui conferir os nomes dos menus do GitHub na documentação atual, porque o acesso ao Context7 foi negado. Escrevi de memória, então vale confirmar os nomes na tela quando for fazer de verdade. Também não fiz commit; se quiser, faço.

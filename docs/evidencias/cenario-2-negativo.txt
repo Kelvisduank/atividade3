@@ -1,0 +1,5 @@
+PROMPT: Qual a diferença entre polvilho doce e polvilho azedo? Responde em 2 frases, não precisa mexer em nada.
+SKILL CHAMADA: nenhuma
+ARQUIVOS ALTERADOS:
+RESPOSTA:
+Os dois vêm da fécula da mandioca. O polvilho doce é seco logo após a extração, tem sabor neutro e deixa a massa mais macia e menos crescida. Já o azedo fermenta naturalmente por semanas antes de secar, o que dá o sabor levemente ácido e faz o pão de queijo e o biscoito de polvilho crescerem mais e ficarem mais crocantes e aerados.

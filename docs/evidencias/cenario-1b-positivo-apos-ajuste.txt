@@ -1,0 +1,13 @@
+PROMPT: Minha tia mandou no zap a receita do bolo de fubá dela: 3 ovos, 2 xícaras de fubá, 1 xícara de açúcar, 1 copo de leite, meia xícara de óleo e 1 colher de fermento. Bate tudo no liquidificador e assa. Põe no caderno pra mim?
+SKILL CHAMADA: "name":"Skill","input":{"skill":"nova-receita"}
+ARQUIVOS ALTERADOS:
+ M receitas/indice.json
+?? receitas/bolo-de-fuba-da-tia.json
+RESPOSTA:
+Pronto, salvei como `receitas/bolo-de-fuba-da-tia.json`. O validador aprovou todas as receitas e o índice agora tem 4.
+
+Vale confirmar umas coisas com sua tia:
+- **Leite:** ela disse "1 copo", e copo não é o mesmo que xícara. Registrei como 1 xícara; falta saber o tamanho do copo.
+- **Fermento:** ela disse "1 colher". Registrei como colher de sopa; confirmar isso e se é fermento em pó.
+- **Forno:** ela não disse temperatura, tempo, tamanho da forma nem se precisa untar.
+- **Rendimento:** ela não disse quantas porções dá.

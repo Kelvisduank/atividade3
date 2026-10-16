@@ -1,0 +1,26 @@
+{
+  "id": "bolo-de-fuba-da-tia",
+  "titulo": "Bolo de fubá da tia",
+  "categoria": "doce",
+  "rendimento": null,
+  "tempoMinutos": null,
+  "ingredientes": [
+    { "nome": "ovo", "quantidade": 3, "unidade": "unidade" },
+    { "nome": "fubá", "quantidade": 2, "unidade": "xicara" },
+    { "nome": "açúcar", "quantidade": 1, "unidade": "xicara" },
+    { "nome": "leite", "quantidade": 1, "unidade": "xicara" },
+    { "nome": "óleo", "quantidade": 0.5, "unidade": "xicara" },
+    { "nome": "fermento", "quantidade": 1, "unidade": "colher-sopa" }
+  ],
+  "passos": [
+    "Bata todos os ingredientes no liquidificador.",
+    "Despeje numa forma e asse."
+  ],
+  "pendencias": [
+    "leite foi passado como \"1 copo\": copo ≠ xícara, confirmar o tamanho do copo",
+    "fermento foi passado como \"1 colher\": confirmar se é colher de sopa",
+    "fermento: confirmar se é fermento químico em pó",
+    "forma (tamanho, se precisa untar), temperatura e tempo de forno não informados",
+    "rendimento não informado"
+  ]
+}

@@ -5,6 +5,16 @@
     "categoria": "doce"
   },
   {
+    "id": "bolo-de-fuba-da-tia",
+    "titulo": "Bolo de fubá da tia",
+    "categoria": "doce"
+  },
+  {
+    "id": "brigadeiro",
+    "titulo": "Brigadeiro",
+    "categoria": "doce"
+  },
+  {
     "id": "pao-de-queijo-da-vo",
     "titulo": "Pão de queijo da vó",
     "categoria": "salgado"
