@@ -1,6 +1,6 @@
 ---
 name: nova-receita
-description: Transforma uma receita em texto solto (ditada, colada de mensagem de WhatsApp, transcrita de caderno) num arquivo novo receitas/<id>.json no schema do caderno receitas-da-casa e roda o validador. Use quando pedirem para adicionar, cadastrar, salvar ou transcrever uma receita NOVA no caderno. Não use para editar uma receita que já existe, nem para dúvidas de culinária ou receitas que não vão para o caderno.
+description: Transforma uma receita culinária (comida ou bebida, categoria doce, salgado ou bebida) em texto solto (ditada, colada de mensagem de WhatsApp, transcrita de caderno) num arquivo novo receitas/<id>.json no schema do caderno receitas-da-casa e roda o validador. Use quando pedirem para adicionar, cadastrar, salvar ou transcrever uma receita de comer ou beber NOVA no caderno. Não use para "receitas" que não são de comida (limpeza, produtos caseiros, passo a passo técnico), para editar uma receita que já existe, nem para dúvidas de culinária.
 allowed-tools: Read, Glob, Write, Bash(npm run validar), PowerShell(npm run validar)
 ---
 
@@ -17,6 +17,8 @@ validador. Ela nunca completa o que não foi dito: lacuna vira `null` + item em 
 - ✅ "Salva essa receita de escondidinho que minha mãe mandou no zap: ..."
 - ❌ "Quanto tempo de forno pra um escondidinho?" (dúvida de culinária, não é cadastro)
 - ❌ "Corrige o tempo do bolo de cenoura pra 50 min" (edita receita existente: edição normal)
+- ❌ "Salva no caderno a receita de limpeza da panela" (não é comida; já disparou errado
+  aqui antes deste ajuste, veja `docs/LOG-TESTES-SKILL.md`)
 
 ## Passos
 
