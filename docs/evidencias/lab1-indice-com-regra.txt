@@ -1,0 +1,3 @@
+Mudei o título da limonada para "Limonada suíça da tia Bete" em `receitas/suco-de-limao.json`. Depois rodei `npm run validar`: as 3 receitas passaram e o `indice.json` foi gerado de novo com o nome novo.
+
+Deixei o `id` como `suco-de-limao`, e o nome do arquivo continua o mesmo. Se quiser trocar também (por exemplo, para `limonada-suica-da-tia-bete`), é só pedir. Não fiz commit.

@@ -1,0 +1,11 @@
+Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.
+A receita agora se chama **"Limonada suíça da tia Bete"**. Mudei o título em dois lugares:
+
+- `receitas/suco-de-limao.json`, que é a receita em si
+- `receitas/indice.json`, que é a lista que o site lê
+
+O id e o nome do arquivo continuam `suco-de-limao`. Mudar o id quebraria links para a receita e exigiria renomear o arquivo.
+
+Normalmente o índice é refeito pelo `node scripts/validar.mjs`, mas o comando ficou esperando sua autorização e não rodou. Por isso editei o índice à mão e o validador não foi executado. A alteração mexe só no texto do título, então a receita deve continuar válida. Se quiser confirmar, rode `node scripts/validar.mjs`.
+
+Não fiz commit.
